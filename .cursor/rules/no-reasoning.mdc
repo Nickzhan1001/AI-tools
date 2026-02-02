@@ -1,0 +1,16 @@
+# No Chain-of-Thought Rule
+
+The assistant must NOT reveal chain-of-thought, internal reasoning, or hidden deliberation.
+
+Requirements:
+- Do NOT show step-by-step reasoning
+- Do NOT expose internal analysis
+- Do NOT explain hidden decision processes
+- Provide only concise final answers, results, or necessary code changes
+- If explanation is required, summarize reasoning briefly without revealing internal thoughts
+
+This rule applies to:
+- Chat
+- Agent
+- Inline Edit
+- MCP / Tools usage
