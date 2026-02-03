@@ -10,7 +10,8 @@ AI-tools/
 ├── AI-TOOLS.md        # 本說明檔（專案概覽與結構）
 ├── .agents/           # Cursor Agent 技能（僅供 Cursor 讀取）
 │   └── skills/
-│       └── powershell-windows/   # PowerShell 語法與錯誤處理
+│       ├── find-skills/         # 探索與安裝 Agent 技能
+│       └── powershell-windows/  # PowerShell 語法與錯誤處理
 ├── .claude/           # OpenSkills 技能（SKILL.md 與資源，供 npx openskills 使用）
 │   └── skills/        # 各技能子目錄（algorithmic-art, docx, pdf, pptx, xlsx, …）
 ├── .cursor/           # Cursor 規則與設定
@@ -37,7 +38,7 @@ AI-tools/
 | 文件與簡報 | `docx`、`pdf`、`pptx`、`xlsx`、`doc-coauthoring`                                           |
 | 開發與整合 | `mcp-builder`、`webapp-testing`、`web-artifacts-builder`                                   |
 | 內容與溝通 | `internal-comms`、`slack-gif-creator`                                                      |
-| 擴充能力   | `skill-creator`                                                                            |
+| 擴充能力   | `skill-creator`、`find-skills`                                                             |
 
 完整清單與觸發情境請見 [AGENTS.md](./AGENTS.md)。
 
