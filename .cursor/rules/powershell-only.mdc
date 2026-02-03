@@ -1,4 +1,11 @@
+---
+description: 終端僅用 PowerShell；禁止 bash/zsh/cmd 語法
+alwaysApply: true
+---
+
 # 終端僅用 PowerShell 規則
+
+撰寫或執行 PowerShell 指令前，**請先使用**專案技能 **`.agents/skills/powershell-windows`**，並依其內容處理 Windows PowerShell 語法、陷阱與錯誤處理。
 
 所有終端指令必須以 **PowerShell** 語法為準，禁止使用 bash/zsh 語法。
 
